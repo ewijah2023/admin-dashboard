@@ -16,7 +16,40 @@ body {
 
 .header {
     border: 1px solid blue;
-    grid-column: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    padding: 20px;
+    grid-column: 2 / -1;
+}
+
+.search {
+    grid-column: 1;
+    grid-row: 1
+}
+
+.search input {
+    width: 80%;
+    padding: 16px;
+}
+
+.profile {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.actions {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.greeting {
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
 }
 
 .sidebar {
@@ -46,6 +79,10 @@ body {
     border: 1px solid blue;
     grid-row: 2 / 4
 
+}
+
+.main ul {
+    border: 1px solid rgb(251, 147, 255);
 }
 
 li {
