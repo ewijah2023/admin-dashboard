@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid pink;
+}
+
+.header {
+    border: 1px solid blue;
+}
+
+.sidebar {
+    border: 1px solid blue;
+}
+
+.main {
+    border: 1px solid blue;
+}
