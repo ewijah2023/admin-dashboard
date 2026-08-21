@@ -201,6 +201,10 @@ li span {
     gap: 8px
 }
 
+.footer p a {
+    color: black;
+}
+
 @media (max-width: 768px) {
     .container {
         display: block;
@@ -232,3 +236,4 @@ li span {
     padding: 10px;
 }
 }
+
