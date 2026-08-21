@@ -200,3 +200,35 @@ li span {
     align-items: center;
     gap: 8px
 }
+
+@media (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+
+    .sidebar h1 {
+        margin: 10px;
+    }
+
+    .sidebar ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .settingsList {
+        margin-top: 0;
+    }
+
+    .main ul {
+    grid-template-columns: 1fr;
+    padding: 10px;
+}
+}
